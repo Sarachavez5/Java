@@ -1,62 +1,179 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class calculaSigno {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int dia = scanner.nextInt();
-        // System.out.println("Este es tu dia de nacimiento "+ dia);
-        int mes = scanner.nextInt();
-        //System.out.println("Este es tu mes de nacimiento " + mes);
+        int Opc;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("\n               MENU  \n");
+        System.out.println(" 1. Para saber su signo Zodiacal ");
+        System.out.println(" 2. Para saber sus días vividos");
+        System.out.println(" 3. Para saber sus años en perro");
+        System.out.println(" 4. Hallar su número de nacimiento");
+        //int Opc = teclado.nextInt();
+        Opc = Integer.parseInt(JOptionPane.showInputDialog("OPCIONES"));
 
-        switch (mes) {
+        switch (Opc){
             case 1:
-                System.out.println("Tu eres de Enero");
-                if(dia >= 1 && dia <= 20){
-                    System.out.println("You are Capricorn");
-                }
-                else if(dia > 20 && dia <= 31){
-                    System.out.println("You are Acuario");
-                }
-                else{
-                    System.out.println("Te saliste del rango");
-                }
-                break;
-            case 2:
-                System.out.println("Febrero");
-                break;
-            case 3:
-                System.out.println("Marzo");
-                break;
-            case 4:
-                System.out.println("Abril");
-                break;
-            case 5:
-                System.out.println("Mayo");
-                break;
-            case 6:
-                System.out.println("Junio");
-                break;
-            case 7:
-                System.out.println("Julio");
-                break;
-            case 8:
-                System.out.println("Agosto");
-                break;
-            case 9:
-                System.out.println("Septiembre");
-                break;
-            case 10:
-                System.out.println("Octubre");
-                break;
-            case 11:
-                System.out.println("Noviembre");
-                break;
-            case 12:
-                System.out.println("Diciembre");
-                break;
-            default:
-            System.out.println("Dato no encontrado");
-                break;
+            System.out.println("Ingrese su día de nacimiento");
+            int dia = Integer.parseInt(JOptionPane.showInputDialog("DIA"));
+            // System.out.println("Este es tu dia de nacimiento "+ dia);
+            System.out.println("Ingese su mes de nacimiento");
+            int mes = Integer.parseInt(JOptionPane.showInputDialog("MES"));
+            //System.out.println("Este es tu mes de nacimiento " + mes);
+    
+            switch (mes) {
+                case 1:
+                    System.out.println("Tu eres de Enero");
+                    if(dia >= 1 && dia <= 20){
+                        System.out.println("eres capricornio");
+                    }
+                    else if(dia > 20 && dia <= 31){
+                        System.out.println("eres acuario");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 2:
+                    System.out.println("Febrero");
+                    if(dia >= 1 && dia < 20){
+                        System.out.println("Eres acuario");
+                    }
+                    else if(dia >= 20 && dia <= 28){
+                        System.out.println("Eres piscis");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 3:
+                    System.out.println("Marzo");
+                    if(dia >= 1 && dia <= 20){
+                        System.out.println("Eres piscis");
+                    }
+                    else if(dia > 20 && dia <= 31){
+                        System.out.println("Eres aries");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 4:
+                    System.out.println("Abril");
+                    if(dia >= 1 && dia <= 20){
+                        System.out.println("Eres aries");
+                    }
+                    else if(dia > 20 && dia < 31){
+                        System.out.println("Eres tauro");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 5:
+                    System.out.println("Mayo");
+                    if(dia >= 1 && dia <= 21){
+                        System.out.println("Eres tauro");
+                    }
+                    else if(dia >= 22 && dia <= 31){
+                        System.out.println("Eres geminis");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 6:
+                    System.out.println("Junio");
+                    if(dia >= 1 && dia <= 21){
+                        System.out.println("Eres géminis");
+                    }
+                    else if(dia >= 22 && dia <= 30){
+                        System.out.println("Eres cáncer");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 7:
+                    System.out.println("Julio");
+                    if(dia >= 1 && dia <= 22){
+                        System.out.println("Eres cáncer");
+                    }
+                    else if(dia >= 23 && dia <= 31){
+                        System.out.println("Eres leo");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 8:
+                    System.out.println("Agosto");
+                    if(dia >= 1 && dia <= 23){
+                        System.out.println("Eres leo");
+                    }
+                    else if(dia >= 24 && dia <= 31){
+                        System.out.println("Eres virgo");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 9:
+                    System.out.println("Septiembre");
+                    if(dia >= 1 && dia <= 23){
+                        System.out.println("Eres virgo");
+                    }
+                    else if(dia >= 24 && dia <= 30){
+                        System.out.println("Eres libra");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 10:
+                    System.out.println("Octubre");
+                    if(dia >= 1 && dia <= 23){
+                        System.out.println("Eres libra");
+                    }
+                    else if(dia >= 24 && dia <= 31){
+                        System.out.println("Eres escorpio");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 11:
+                    System.out.println("Noviembre");
+                    if(dia >= 1 && dia <= 22){
+                        System.out.println("eres escorpio");
+                    }
+                    else if(dia >= 23 && dia <= 30){
+                        System.out.println("Eres sagitario");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                case 12:
+                    System.out.println("Diciembre");
+                    if(dia >= 1 && dia <= 21){
+                        System.out.println("eres sagitario");
+                    }
+                    else if(dia >= 22 && dia <= 31){
+                        System.out.println("eres capricornio");
+                    }
+                    else{
+                        System.out.println("Te saliste del rango");
+                    }
+                    break;
+                default:
+                System.out.println("Por favor ingrese un mes valido");
+                
+                    break;
+            } 
         }
+
+
     }
 }
