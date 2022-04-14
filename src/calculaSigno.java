@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import javax.sql.rowset.CachedRowSet;
 import javax.swing.JOptionPane;
 
 public class calculaSigno {
@@ -173,7 +175,22 @@ public class calculaSigno {
                     break;
             } 
         }
+        switch (Opc){
+            case 2:
+            System.out.println("Ingrese su día de nacimiento");
+            int dia = Integer.parseInt(JOptionPane.showInputDialog("DIA"));
+            // System.out.println("Este es tu dia de nacimiento "+ dia);
+            System.out.println("Ingese su mes de nacimiento");
+            int mes = Integer.parseInt(JOptionPane.showInputDialog("MES"));
+            //System.out.println("Este es tu mes de nacimiento " + mes);
+            System.out.println("Ingrese su año de nacimiento");
+            int año = Integer.parseInt(JOptionPane.showInputDialog("AÑO"));
+            //System.out.println("Este es tu año de nacimiento " + año);
+        }
+          
+            
 
-
-    }
+    }    
+    
+    
 }
