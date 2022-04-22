@@ -1,0 +1,17 @@
+                                                                                            
+ZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO     DDDDDDDDDDDDD      IIIIIIIIII               AAA                  CCCCCCCCCCCCC
+Z:::::::::::::::::Z   OO:::::::::OO   D::::::::::::DDD   I::::::::I              A:::A              CCC::::::::::::C
+Z:::::::::::::::::Z OO:::::::::::::OO D:::::::::::::::DD I::::::::I             A:::::A           CC:::::::::::::::C
+Z:::ZZZZZZZZ:::::Z O:::::::OOO:::::::ODDD:::::DDDDD:::::DII::::::II            A:::::::A         C:::::CCCCCCCC::::C
+ZZZZZ     Z:::::Z  O::::::O   O::::::O  D:::::D    D:::::D I::::I             A:::::::::A       C:::::C       CCCCCC
+        Z:::::Z    O:::::O     O:::::O  D:::::D     D:::::DI::::I            A:::::A:::::A     C:::::C              
+       Z:::::Z     O:::::O     O:::::O  D:::::D     D:::::DI::::I           A:::::A A:::::A    C:::::C              
+      Z:::::Z      O:::::O     O:::::O  D:::::D     D:::::DI::::I          A:::::A   A:::::A   C:::::C              
+     Z:::::Z       O:::::O     O:::::O  D:::::D     D:::::DI::::I         A:::::A     A:::::A  C:::::C              
+    Z:::::Z        O:::::O     O:::::O  D:::::D     D:::::DI::::I        A:::::AAAAAAAAA:::::A C:::::C              
+   Z:::::Z         O:::::O     O:::::O  D:::::D     D:::::DI::::I       A:::::::::::::::::::::AC:::::C              
+ZZZ:::::Z     ZZZZZO::::::O   O::::::O  D:::::D    D:::::D I::::I      A:::::AAAAAAAAAAAAA:::::AC:::::C       CCCCCC
+Z::::::ZZZZZZZZ:::ZO:::::::OOO:::::::ODDD:::::DDDDD:::::DII::::::II   A:::::A             A:::::AC:::::CCCCCCCC::::C
+Z:::::::::::::::::Z OO:::::::::::::OO D:::::::::::::::DD I::::::::I  A:::::A               A:::::ACC:::::::::::::::C
+Z:::::::::::::::::Z   OO:::::::::OO   D::::::::::::DDD   I::::::::I A:::::A                 A:::::A CCC::::::::::::C
+ZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO     DDDDDDDDDDDDD      IIIIIIIIIIAAAAAAA                   AAAAAAA   CCCCCCCCCCCCC
