@@ -13,6 +13,12 @@ public class calculaSigno {
         int Opc;
         int resul = 0;
         int resul2 = 0;
+        InputStream ins = new FileInputStream("src/tittle.txt");
+        Scanner scanner2 = new Scanner(ins);
+        while (scanner2.hasNextLine())
+            System.out.println(scanner2.nextLine());
+        scanner2.close();
+        Scanner teclado = new Scanner(System.in);
         System.out.println("\n               MENU  \n");
         System.out.println(" 1. Para saber su signo Zodiacal ");
         System.out.println(" 2. Para saber sus días vividos");
