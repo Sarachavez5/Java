@@ -11,6 +11,8 @@ public class calculaSigno {
 
     public static void main(String[] args) throws FileNotFoundException {
         int Opc;
+        int resul = 0;
+        int resul2 = 0;
         System.out.println("\n               MENU  \n");
         System.out.println(" 1. Para saber su signo Zodiacal ");
         System.out.println(" 2. Para saber sus días vividos");
@@ -174,6 +176,21 @@ public class calculaSigno {
                 LocalDate actuP = LocalDate.now();
                 int conver = (int) ChronoUnit.DAYS.between(naciP, actuP);
                 System.out.println((conver / 365) / 7);
+                break;
+            case 4:
+                while (dia > 0) {
+                    resul += dia % 10;
+                    dia = dia / 10;
+                }
+                if (resul > 10) {
+                    while (resul > 0) {
+                        resul2 += resul % 10;
+                        resul = resul / 10;
+                    }
+                    System.out.println("Tu numero de la suerte es: " + resul2);
+                } else {
+                    System.out.println("Tu numero de la suerte es:" + resul);
+                }
                 break;
         }
     }
