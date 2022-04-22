@@ -169,6 +169,12 @@ public class calculaSigno {
                 Long totalDeDias = ChronoUnit.DAYS.between(naci, actu);
                 System.out.println("Tu numero de dias Vividos es " + totalDeDias);
                 break;
+            case 3:
+                LocalDate naciP = LocalDate.of(anio, mes, dia);
+                LocalDate actuP = LocalDate.now();
+                int conver = (int) ChronoUnit.DAYS.between(naciP, actuP);
+                System.out.println((conver / 365) / 7);
+                break;
         }
     }
 }
